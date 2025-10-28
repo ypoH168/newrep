@@ -1,0 +1,46 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+----------------------------------------------
+
+$ git branch
+  branch2
+* main
+
+----------------------------------------
+$ git log
+commit e560d58d8a3eb4f9f2716d4a1d8cf21a311c2177 (HEAD -> main, origin/main, origin/HEAD)
+Author: Не важно <podolanruslan7@gmail.com>
+Date:   Tue Oct 28 11:05:50 2025 +0200
+
+    Create text.txt
+
+commit 149ecca9907c161e6b5dddbb9acd8ded5ea00366
+Merge: b919ed4 46a66d0
+Author: Ruslan <podolanruslan7@gmail.com>
+Date:   Tue Oct 28 11:04:59 2025 +0200
+
+    fix merge conlict
+
+commit b919ed492b6b6d97681a72e7f9072ec2acb02ed3
+Author: Ruslan <podolanruslan7@gmail.com>
+Date:   Tue Oct 28 11:03:30 2025 +0200
+
+    fix index.html on branch main
+
+commit 46a66d0c1a7e07264a3b15d5d1231d72253d6b80 (origin/branch2, branch2)
+Author: Ruslan <podolanruslan7@gmail.com>
+Date:   Tue Oct 28 11:01:47 2025 +0200
+:
+---------------------
+
+$ git log --merges
+commit 149ecca9907c161e6b5dddbb9acd8ded5ea00366
+Merge: b919ed4 46a66d0
+Author: Ruslan <podolanruslan7@gmail.com>
+Date:   Tue Oct 28 11:04:59 2025 +0200
+
+    fix merge conlict
+
+-------------------------------------------------
